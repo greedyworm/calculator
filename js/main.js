@@ -99,5 +99,8 @@ let equal = result.addEventListener('click' , () => {
     } else if(inputOperator === '1/x') {
         hasil = 1/prev
         currentInput.innerHTML = hasil;
+    } else if(inputOperator === '%') {
+        hasil = prev/100
+        currentInput.innerHTML = hasil;
     }
 });
